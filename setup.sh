@@ -62,8 +62,4 @@ echo "Make your changes, then exit nano (CTRL+X, Y, Enter)."
 echo "======================================================"
 sudo nano /etc/pterodactyl/config.yml
 
-# Step 5: Recreate containers with new config
-cd pterodactyl/wings || exit
-docker-compose up -d --force-recreate
-
 echo "✅ Wings done.."
