@@ -54,12 +54,4 @@ EOF
 # Step 3: Start Docker containers
 docker-compose up -d
 
-# Step 4: Ask user to edit config.yml manually
-echo "======================================================"
-echo "Now you need to configure Wings."
-echo "Opening /etc/pterodactyl/config.yml in nano..."
-echo "Make your changes, then exit nano (CTRL+X, Y, Enter)."
-echo "======================================================"
-sudo nano /etc/pterodactyl/config.yml
-
 echo "✅ Wings setup done not do "cd wings" & "docker-compose up -d --force-recreate" done.."
