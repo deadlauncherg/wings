@@ -62,4 +62,4 @@ echo "Make your changes, then exit nano (CTRL+X, Y, Enter)."
 echo "======================================================"
 sudo nano /etc/pterodactyl/config.yml
 
-echo "✅ Wings done.."
+echo "✅ Wings setup done not do "cd wings" & "docker-compose up -d --force-recreate" done.."
